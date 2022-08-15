@@ -1,0 +1,20 @@
+jar cvfm Sistema.jar manifest.mf Bienvenida.class Terminos.class PantallaPrincipal.class images/coca-cola.png images/icon.png images/logo-coca.png images/coca-cola-blanco.png
+
+La letra c significa que se va a crear un archivo jar
+La letra v significa la salida del archivo jar
+La letra f significa el nombre del archivo jar
+La letra M significa que se va a agregar un archivo de manifiesto
+Sistema.jar es el nombre de nuestro archivo jar y la extención
+manifest.mf es el nombre del archivo de nuestro manifiesto
+Agregamos las clases que hemos creado
+Agregamos las imagenes que usamos en nuestro proyecto mas la extención
+
+Finalmente creamos nuestro archivo java:
+java -jar Sistema.jar
+
+
+No olvidar crear el archivo de manifesto y dejar un enter al final del archivo:
+Manifest-Version: 1.0
+Create-By: Daniel Ovalle
+Main-Class: Bienvenida
+X-COMMENT: Curso Java Profesor: La Geekipedia de Ernesto

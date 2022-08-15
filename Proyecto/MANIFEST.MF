@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Create-By: Daniel Ovalle
+Main-Class: Bienvenida
+X-COMMENT: Curso Java Profesor: La Geekipedia de Ernesto
+
